@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="holo_blue_light">#ffff7300</color>
+    <color name="holo_blue_light_transparent">#99ff7300</color>
+    <color name="holo_red">#ffff4444</color>
+    <color name="holo_white">#fffcfcfc</color>
+    <color name="white">#fffcfcfc</color>
+    <color name="transparent_white">#80fcfcfc</color>
+    <color name="tpi_background_color">#60080808</color>
+    <color name="audio_player_pager_container">#00000000</color>
+    <item name="favorite_normal" type="color">@color/holo_red</item>
+</resources>

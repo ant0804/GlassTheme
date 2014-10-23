@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <!-- Definition of GlassTheme Start  -->
+    <style name="android:style/Theme" parent="@android:style/Theme">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@color/Theme_bg</item>
+    </style>
+    <style name="Theme.Holo" parent="@android:style/Theme.Holo">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@color/Theme_bg</item>
+    </style>
+    <style name="Theme.Holo.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@color/Theme_Light_bg</item>
+    </style>
+    <!-- Definition of GlassTheme End -->
+
+    <!-- Definition of ActionBar Start -->
+    <style name="Widget.ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/ActionBar_bg</item>
+    </style>
+    <style name="Widget.Holo.ActionBar" parent="@style/Widget.ActionBar">
+        <item name="android:background">@color/ActionBar_bg</item>
+        <!--item name="android:backgroundStacked">@color/ActionBar_bg</item-->
+        <!--item name="android:backgroundSplit">@drawable/ab_bottom_transparent_dark_holo</item-->
+    </style>
+    <style name="Widget.Holo.ActionBar.Solid" parent="@style/Widget.Holo.ActionBar" />
+    <style name="Widget.Holo.Light.ActionBar" parent="@style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/ActionBar_Light_bg</item>
+        <!--item name="android:backgroundStacked">@color/ActionBar_bg</item-->
+        <!--item name="android:backgroundSplit">@drawable/ab_bottom_transparent_dark_holo</item-->
+    </style>
+    <style name="Widget.Holo.Light.ActionBar.Solid" parent="@style/Widget.Holo.Light.ActionBar" />
+    <style name="Theme.Holo.Light.DarkActionBar" parent="@style/Theme.Holo" />
+
+    <!-- Definition of ActionBar End -->
+
+    <!-- Definition of switcher Start -->
+    <style name="Widget.Holo.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:thumb">@drawable/bg_weather_panel_app</item>
+        <item name="android:switchTextAppearance">@style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="android:track">@drawable/switch_selector</item>
+        <item name="android:switchMinWidth">180.0px</item>
+        <item name="android:switchPadding">0.0dip</item>
+        <item name="android:thumbTextPadding">12.0dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch"
+        parent="@style/Widget.Holo.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/bg_weather_panel_app</item>
+        <item name="android:track">@drawable/switch_selector</item>
+    </style>
+    <!-- Definition of switcher End -->
+
+    <!-- Definition of Dialog Start -->
+    <style name="Theme.Holo.Dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_full_holo_dark</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+    <style name="Theme.Holo.Light.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_full_holo_light</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+
+    <!-- Definition of Dialog End -->
+
+    <style name="TextAppearance.Holo" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.Holo.Light" parent="@style/TextAppearance.Holo" />
+
+
+    <!-- Framework Slider Buttons Textcolor -->
+    <style name="TextAppearance.Holo.Widget.Switch"
+        parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">@dimen/notification_text_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Emphasis">
+        <item name="android:textColor">#CCCCCC</item>
+    </style>
+
+
+</resources>

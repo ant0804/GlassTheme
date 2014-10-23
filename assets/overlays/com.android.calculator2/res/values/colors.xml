@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="magic_flame">#00123456</color>
+    <color name="button_text">#ffa3a3a3</color>
+    <color name="button_disabled_text_color">#883a3a3a</color>
+    <color name="button_pressed_text">#ffffffff</color>
+    <color name="button_pressed_text_equal">#ff080808</color>
+    <color name="button_text_equal">#ffff7300</color>
+    <color name="button_text_function">#ffff7300</color>
+    <color name="button_hint_text">#ffff7300</color>
+    <color name="display_text">#fffcfcfc</color>
+    <color name="pressed_color">#33000000</color>
+    <color name="history_input">#ff333333</color>
+    <color name="history_result">#ff4c4c4c</color>
+    <color name="graph_background">#fffcfcfc</color>
+    <color name="graph_color">#ffff7300</color>
+    <color name="graph_axes_color">#000000</color>
+    <color name="graph_grid_color">#333333</color>
+    <color name="graph_labels_color">#ff000000</color>
+    <color name="details_color">#fff5f5f5</color>
+    <color name="store_row_text">#ff444444</color>
+    <color name="btn_bg">#ffe5e5e5</color>
+</resources>

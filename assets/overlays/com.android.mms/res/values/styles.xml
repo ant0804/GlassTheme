@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <style name="WidgetTitle" parent="@*common:style/WidgetTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="Theme.Holo" parent="@android:style/Theme.Holo">
+        <item name="android:colorBackground">@color/transparent</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Glass</item>
+    </style>
+
+    <style name="Widget.Holo.ActionBar.Glass" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:windowBackground">@color/actionbarBG</item>
+        <item name="android:progressBarStyle">@android:style/Widget.Holo.ProgressBar.Horizontal
+        </item>
+        <item name="android:background">@color/actionbarBG</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:subtitleTextStyle">
+            @android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle
+        </item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.Holo.ProgressBar
+        </item>
+        <item name="android:progressBarPadding">32.0dip</item>
+        <item name="android:itemPadding">8.0dip</item>
+        <item name="android:backgroundStacked">@color/transparent</item>
+        <item name="android:backgroundSplit">@color/transparent</item>
+    </style>
+    <style name="Glass.TextAppearance.ActionBar.Title"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/white80</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="MmsHoloTheme" parent="@style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/MmsHoloTheme.ABText</item>
+    </style>
+    <style name="MmsHoloTheme.ABText" parent="@style/Widget.Holo.ActionBar.Glass">
+        <item name="android:titleTextStyle">@style/MmsHoloTheme.TitleText</item>
+        <item name="android:subtitleTextStyle">@style/MmsHoloTheme.SubtitleText</item>
+    </style>
+    <style name="MmsHoloTheme.TitleText" parent="@style/Glass.TextAppearance.ActionBar.Title">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="mmsWidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white80</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MmsHoloTheme.SubtitleText" parent="@style/Glass.TextAppearance.ActionBar.Title">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/white60</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

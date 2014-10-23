@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsActionBarStyle" parent="@*android:style/Widget.Holo.Light">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:background">@drawable/ab_solid_light_holo</item>
+        <!--item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item-->
+    </style>
+    <style name="SettingsLight" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Solid</item>
+        <item name="android:icon">@*android:color/transparent</item>
+    </style>
+    <style name="Theme.Settings" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Solid</item>
+        <item name="android:windowBackground">
+            @color/com_android_phone_phone_settings_background_color
+        </item>
+    </style>
+    <style name="Widget.Holo.ActionBar.Solid" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:progressBarStyle">@*android:style/Widget.Holo.ProgressBar.Horizontal
+        </item>
+        <item name="android:background">@color/ActionBar_Light_bg</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <!--item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item-->
+        <item name="android:indeterminateProgressStyle">@*android:style/Widget.Holo.ProgressBar
+        </item>
+        <item name="android:progressBarPadding">8.0dip</item>
+        <item name="android:itemPadding">2.0dip</item>
+        <item name="android:backgroundStacked">@color/transparent</item>
+        <item name="android:backgroundSplit">@color/transparent</item>
+        <item name="android:icon">@color/transparent</item>
+        <item name="android:windowBackground">
+            @color/com_android_phone_phone_settings_background_color
+        </item>
+    </style>
+    <!--style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.ActionBar.Subtitle" parent="@style/TextAppearance.Holo.Small">
+        <item name="android:textSize">@dimen/action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.Holo.Medium" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/holo_white</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <style name="TextAppearance.Holo.Small" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/holo_gray</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style-->
+</resources>

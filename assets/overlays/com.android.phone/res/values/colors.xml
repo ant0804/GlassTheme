@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="com_android_phone_phone_settings_actionbar_color">#0054a8b2</color>
+    <color name="com_android_phone_phone_settings_background_color">#00fcfcfc</color>
+    <color name="ActionBar_Light_bg">#5fffffff</color>
+    <color name="holo_white">#ff000000</color>
+    <color name="holo_gray">#ff212121</color>
+    <color name="transparent">#00000000</color>
+</resources>

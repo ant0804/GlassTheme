@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_white">#fff5f5f5</color>
+    <color name="holo_gray">#80f5f5f5</color>
+    <color name="background_color">#fffafafa</color>
+    <color name="calendar_view_switch_menu_text_color">#fff5f5f5</color>
+    <color name="calendar_view_switch_menu_text_color_light">#fff5f5f5</color>
+</resources>

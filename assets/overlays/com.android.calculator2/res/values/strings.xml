@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_theme">Theme.Holo.Light.NoActionBar</string>
+    <string name="app_settings_theme">Theme.Holo.Light</string>
+</resources>
