@@ -2,5 +2,5 @@
 <resources>
     <item name="dialer_recent_card_bg" type="drawable">#ff000000</item>
     <item name="list_item_avatar_bg" type="drawable">#ff000000</item>
-    <item name="ic_tile_for_recents_and_contact_tile" type="drawable">#00000000</item>
+    <item name="ic_tile_for_recents_and_contact_tile" type="drawable">#33ffffff</item>
 </resources>
