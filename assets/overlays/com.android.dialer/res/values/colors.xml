@@ -170,6 +170,7 @@
     <color name="transparent">#00000000</color>
     <color name="dialpad_keynumber_color">#3B77E7</color>
     <color name="dialpad_bg_color">#cf000000</color>
+    <color name="inCallBG">#1f000000</color>
     <color name="white100">#ffffffff</color>
     <color name="white90">#e5ffffff</color>
     <color name="white80">#ccffffff</color>

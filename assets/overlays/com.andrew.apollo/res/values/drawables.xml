@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ab_solid_bottom_light_holo" type="drawable">#33ffffff</item>
+    <item name="ab_solid_light_holo" type="drawable">#33ffffff</item>
+    <item name="ab_solid_dark_holo" type="drawable">#33ffffff</item>
+    <item name="ab_stacked_solid_dark_holo" type="drawable">#33ffffff</item>
+</resources>

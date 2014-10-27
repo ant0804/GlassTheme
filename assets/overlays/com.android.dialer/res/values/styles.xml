@@ -15,7 +15,7 @@
 -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Start Glass Theme definition -->
+    <!-- Start Glass Theme definition>
     <style name="Theme.Holo" parent="@android:style/Theme.Holo">
         <item name="android:colorBackground">@color/transparent</item>
         <item name="android:backgroundDimAmount">0.3</item>
@@ -57,17 +57,17 @@
     </style>
     <style name="Theme.Holo.NoTitleBar" parent="@style/Theme.Holo">
         <item name="android:windowNoTitle">true</item>
-    </style>
+    </style-->
 
 
-    <style name="DialtactsTheme1" parent="@style/Theme.Holo">
+    <style name="DialtactsTheme1" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <!--item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item-->
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
     </style>
-    <style name="DialtactsActionBarStyle" parent="@style/Widget.Holo.ActionBar.Clear">
+    <!--style name="DialtactsActionBarStyle" parent="@style/Widget.Holo.ActionBar.Clear">
         <item name="android:displayOptions">none</item>
         <item name="android:backgroundStacked">@null</item>
         <item name="android:backgroundSplit">@null</item>
@@ -139,11 +139,11 @@
         <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
         <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
         <item name="android:actionBarItemBackground">@drawable/list_activated_background</item>
-    </style>
+    </style-->
     <style name="ContactsActionBarTabView" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@drawable/action_bar_tab_glass</item>
     </style>
-    <style name="ContactsPreferencesTheme" parent="@style/Theme.Holo">
+    <!--style name="ContactsPreferencesTheme" parent="@style/Theme.Holo">
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
     <style name="ContactListFilterTheme" parent="@style/Theme.Holo">
@@ -201,7 +201,7 @@
         <item name="android:textColor">@color/white80</item>
         <item name="android:textColorHint">#ff33b5e5</item>
         <item name="android:popupMenuStyle">@android:style/Widget.Holo.PopupMenu</item>
-    </style>
+    </style-->
 
 
     <style name="InCallDialpadKeyNumberStyle">
@@ -220,5 +220,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">sans-serif-light</item>
 
+    </style>
+    <style name="Theme.InCallScreen" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/inCallBG</item>
+        <item name="android:background">@color/inCallBG</item>
+        <item name="android:colorBackground">@color/inCallBG</item>
     </style>
 </resources>
