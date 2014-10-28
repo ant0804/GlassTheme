@@ -40,5 +40,5 @@
     <color name="status_bar_clock_color">#ffD8A400</color>
     <color name="equalizer_fill_color">#ffd8a400</color>
     <color name="qs_background_pressed_color">#00009587</color>
-    <color name="qs_background_color">#1B000000</color>
+    <color name="qs_background_color">#3f000000</color>
 </resources>
