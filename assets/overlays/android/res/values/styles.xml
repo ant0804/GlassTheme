@@ -61,7 +61,7 @@
         <item name="android:textOn"></item>
         <item name="android:textOff"></item>
         <item name="android:thumb">@drawable/bg_weather_panel_app</item>
-        <item name="android:switchTextAppearance">@style/TextAppearance.Holo.Widget.Switch</item>
+        <!--item name="android:switchTextAppearance">@style/TextAppearance.Holo.Widget.Switch</item-->
         <item name="android:track">@drawable/switch_selector</item>
         <item name="android:switchMinWidth">180.0px</item>
         <item name="android:switchPadding">0.0dip</item>
@@ -91,11 +91,11 @@
     <style name="TextAppearance.Holo.Light" parent="@style/TextAppearance.Holo" />
 
 
-    <!-- Framework Slider Buttons Textcolor -->
+    <!-- Framework Slider Buttons Textcolor>
     <style name="TextAppearance.Holo.Widget.Switch"
         parent="@android:style/TextAppearance.Holo.Small">
         <item name="android:textColor">#ffffff</item>
-    </style>
+    </style -->
 
     <style name="TextAppearance.Holo.DialogWindowTitle">
         <item name="android:textSize">22sp</item>
@@ -110,7 +110,7 @@
 
 
     <!-- Notification content styles -->
-    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+    <!--style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
 
@@ -138,7 +138,7 @@
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Emphasis">
         <item name="android:textColor">#CCCCCC</item>
-    </style>
+    </style-->
 
 
 </resources>
